@@ -1,0 +1,9 @@
+version: "3.0"
+# POC compose1 example
+
+services:
+   web:
+      build: .
+      image: tomcat
+      ports:
+         - "8080"
